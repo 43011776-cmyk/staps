@@ -1,0 +1,27 @@
+body {
+	background-image: url(superbowl.jfif) ;
+}
+
+p{
+	color: red;
+	background-color: yellow ;
+	font-family:Arial;
+}
+h2
+{color: darkred;}
+
+.special
+{
+	background-color: pink;
+}
+
+div
+{
+	border: 2px blue solid;
+	border-radius: 35px;
+	width: 400px;
+	height: 300px;
+}
+
+<br><br>
+<a href="index.html"> Retour page précédante </a>
