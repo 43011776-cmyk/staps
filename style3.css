@@ -1,0 +1,89 @@
+/* style général */
+body{
+margin:0;
+font-family: "Segoe UI", Arial, sans-serif;
+
+/* fond pastel chaud */
+background: linear-gradient(
+135deg,
+#fff4ef,
+#ffe9e3,
+#fff0d9
+);
+
+min-height:100vh;
+}
+
+/* header */
+header{
+text-align:center;
+padding:25px;
+
+background: rgba(255,255,255,0.6);
+backdrop-filter: blur(8px);
+
+box-shadow:0 4px 20px rgba(255,170,150,0.3);
+}
+
+/* titre */
+h1{
+margin:0;
+font-size:40px;
+
+color:#ff7f6a;
+
+letter-spacing:2px;
+
+transition:0.4s;
+}
+
+/* conteneur principal */
+.interface{
+
+display:flex;
+gap:25px;
+
+padding:30px;
+
+height:85vh;
+
+box-sizing:border-box;
+
+}
+
+/* style des iframes */
+
+iframe{
+
+border:none;
+
+border-radius:20px;
+
+background:white;
+
+box-shadow:
+0 10px 30px rgba(255,170,150,0.35);
+
+transition: all 0.4s ease;
+
+}
+
+/* menu */
+.menu{
+width:22%;
+}
+
+/* contenu */
+.contenu{
+width:78%;
+}
+
+/* effet fluide moderne */
+iframe:hover{
+
+transform: translateY(-6px);
+
+box-shadow:
+0 20px 40px rgba(255,150,120,0.45);
+
+}
